@@ -10,13 +10,22 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.NodeJSPlugin" />
-
-    <meta-data
-        android:name="com.xfl.msgbot.plugin"
-        android:value="true" />
-    <meta-data
-        android:name="com.xfl.msgbot.plugin.info"
-        android:resource="@xml/plugin_info" />
+        android:theme="@style/Theme.NodeJSPlugin">
+        <meta-data
+            android:name="messengerbot.plugin"
+            android:value="true" />
+        <meta-data
+            android:name="messengerbot.engine.type"
+            android:value="javascript" />
+        <meta-data
+            android:name="messengerbot.engine.name"
+            android:value="NodeJS" />
+        <meta-data
+            android:name="messengerbot.engine.class"
+            android:value="com.xfl.msgbot.plugins.nodejs.NodeJSEngine" />
+        <meta-data
+            android:name="messengerbot.engine.version"
+            android:value="1.0.0" />
+    </application>
 
 </manifest>

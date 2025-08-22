@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<plugin>
-    <name>NodeJS Engine Plugin</name>
-    <version>0.0.1</version>
-    <engine-type>javascript</engine-type>
-    <main-class>com.xfl.msgbot.plugins.nodejs.NodeJSEngine</main-class>
-</plugin>
